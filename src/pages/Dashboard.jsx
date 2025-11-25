@@ -14,7 +14,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import { Link, useNavigate } from "react-router-dom";
-import PaginationComp from "../components/Pagination";
+import PaginationComp from "../components/pagination";
 import { formatDate } from "../utils/formatDate";
 import { loadTasks, deleteTask as removeTask, saveTasks } from "../services/localService";
 import useAuth from "../hooks/useAuth";
